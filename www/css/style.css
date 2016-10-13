@@ -1,0 +1,254 @@
+/* Empty. Add your own CSS if you like */
+
+ion-nav-view {
+  /*background-color: #202020;*/
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100;
+}
+
+.bar.bar-stable {
+  background-color: #2A2A2C;
+}
+
+.menuheader {
+  background-color: #EC5114!important;
+}
+
+.bar.bar-stable .title {
+  color: white;
+}
+
+.item {
+  border:none;
+  background-color: #2A2A2C;
+}
+
+.item-complex .item-content, .scroll-content {
+  background-color: #2A2A2C;
+  color:white;
+}
+
+.answer {
+  background-color: #202020;
+  height: 212px;
+  width: 900px;
+  display: table-cell;
+  vertical-align: bottom;
+  padding: 10px;
+  padding-bottom: 30px;
+  color:white;
+  font-size: 68px;
+  bottom: 0;
+  text-align: right;
+}
+
+.this_num {
+  width: 25%;
+  height: 91.75px;
+  color: white;
+  float:left;
+  background-color: #2A2A2C;
+  border: 1px solid #202020;
+  border-left:0px;
+  border-bottom: 0px;
+    /*border-top:0px;*/
+  text-align: center;
+  padding-top: 35px;
+  font-size: 30px;
+  /*font-weight: 100;*/
+}
+
+.this_button {
+  width: 25%;
+  height: 91.75px;
+  color: white;
+  float:left;
+  background-color: #3D3D3D;
+  border: 1px solid #202020;
+  border-left:0px;
+  border-bottom: 0px;
+  /*border-top:0px;*/
+  text-align: center;
+  padding-top: 35px;
+  font-size: 30px;
+  /*font-weight: 100;*/
+}
+
+.symbol {
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.orange {
+  background-color: #EC5114;
+}
+
+.button {
+  line-height: inherit;
+  border-radius: 0px;
+}
+
+.button:hover {
+  color: white;
+}
+
+.button.active {
+  border: 0px;
+  border-color: none;
+  color: white;
+  /*background-color: #202020;*/
+}
+
+.button.activated {
+  /*border: 0px;*/
+  border-color: #202020;
+  background-color: #202020;
+}
+
+.secret {
+  color:white;
+  /*margin-top: 25px;*/
+  /*padding: 40px;*/
+  /*padding-top: 90px;*/
+  font-size: 40px;
+  line-height: 50px;
+  height: 100%;
+  background-color: #202020;
+}
+
+.thumb {
+  display: inline-block;
+  margin-bottom: 1px;
+  width: calc(33.3333333333% - 0.6667px);
+  height: 124.33px;
+  /*http://www.mademyday.de/css-height-equals-width-with-pure-css.html*/
+  object-fit: cover;
+  /*width: 33.33%;*/
+  margin-right: 1px;
+  /*border-bottom: 1px solid white;*/
+  /*border-right: 1px solid white;*/
+  float:left
+  /*width: calc(25% - 1px);*/
+}
+
+/*.this_num:active {
+    background-color: red;
+}
+
+.this_num:hover {
+  background-color: red;
+}*/
+.transparent {
+  background: transparent !important;
+}
+.image-modal {
+  width: 100% !important;
+  height: 100%;
+  top: 0 !important;
+  left: 0 !important;
+}
+.fullscreen-image {
+  max-width: 100%;
+  max-height: 100%;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.slider {
+  width: 100%;
+  height: 100%;
+}
+
+p.info {
+  position: absolute;
+  bottom: 55px;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.password {
+  padding: 10px;
+  height: auto;
+  /*min-height: 50px;*/
+  font-family: "Open Sans", sans-serif;
+  line-height: 150%;
+}
+
+.icon {
+  float: left;
+  margin-top: 5px;
+}
+
+.pass_info {
+  width: 80%;
+  padding-bottom: 10px;
+  float: left;
+  margin-left: 20px;
+  /*border-bottom: 1px solid #F3F3F3;*/
+  font-size: 90%;
+  font-weight: 300;
+  color: #F3F3F3;
+}
+
+.service {
+  font-size: 120%;
+  color: grey;
+}
+
+.input_modal {
+  background-color: #2A2A2C;
+  padding: 15px;
+  padding-top: 30px;
+  color: #F3F3F3;
+}
+
+.head input[type="text"] {
+  font-size: 120%;
+  color:grey;
+  height: 30px;
+}
+
+.head input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: grey;
+}
+
+.head input[type="text"] {
+  background-color: #2A2A2C;
+  color:grey;
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="text"] {
+  background-color: #2A2A2C;
+  color:white;
+  height: 22px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+/*input:-moz-placeholder, textarea:-moz-placeholder {
+  color: red;
+}*/
+
+.button.button-positive {
+  border-radius: 3px;
+  background-color: #EC5114;
+  font-family: "Open Sans", sans-serif;
+}
+
+.button.button-positive.activated {
+  background-color: #EC5114;
+  border-color: #EC5114;
+}

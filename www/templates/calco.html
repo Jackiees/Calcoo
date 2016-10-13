@@ -1,0 +1,34 @@
+
+<ion-view hide-nav-bar="true" view-title="Calco">
+  <ion-content scroll="false">
+
+    <div class="answer">
+      {{answer | number}}
+    </div>
+    <div class="button this_button">&#xB1;</div>
+    <div class="button this_button" ng-click="percentage()">%</div>
+    <div class="button this_button symbol" style="padding-top:33px;">&#xF7;</div>
+    <div class="button this_button symbol"><span class="ion-ios-close-empty"></span></div>
+
+    <div class="button this_num" ng-click="input(7)">7</div>
+    <div class="button this_num" ng-click="input(8)">8</div>
+    <div class="button this_num" ng-click="input(9)">9</div>
+    <div class="button this_button symbol" style="padding-top:33px;">-</div>
+
+    <div class="button this_num" ng-click="input(4)">4</div>
+    <div class="button this_num" ng-click="input(5)">5</div>
+    <div class="button this_num" ng-click="input(6)">6</div>
+    <div class="button this_button symbol" style="padding-top:33px;border-bottom:0px;" ng-click="add()">+</div>
+
+    <div class="button this_num" ng-click="input(1)">1</div>
+    <div class="button this_num" ng-click="input(2)">2</div>
+    <div class="button this_num" ng-click="input(3)">3</div>
+    <div class="this_button orange" style="border-bottom:1px solid #EC5114;" ng-click="outcome()"></div>
+
+    <div class="button this_num">0</div>
+    <div class="button this_num">.</div>
+    <div class="button this_num" ng-click="erase()">AC</div>
+    <div class="this_button orange symbol" style="border-top:1px solid #EC5114;" ng-click="outcome()">=</div>
+
+  </ion-content>
+</ion-view>
